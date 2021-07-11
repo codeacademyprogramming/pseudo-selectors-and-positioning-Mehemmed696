@@ -28,6 +28,10 @@ body{
 .head a{
     text-decoration: none;
 }
+.head h2{
+    font-weight: 300;
+
+}
 
 .img{
     width: 100px;
@@ -71,7 +75,7 @@ body{
 
 .input_label{
     position: relative;
-    color: rgb(5, 5, 5);
+    color: grey;
     font-size: 16px;
     white-space: nowrap;
     left: 8px;
@@ -91,7 +95,11 @@ input:hover + .input_label{
     letter-spacing: .25px;
     margin-bottom: 50px;
     position: relative;
-    top: 30px;
+    top: 40px;
+}
+.head .more{
+    position: absolute;
+    top: 60%;
 }
 .head .more a{
     color: #1a73e8;
@@ -125,8 +133,11 @@ input:hover + .input_label{
     border-radius: 7px;
     font-size: 14px;
     font-weight: bold;
-    margin: 0 auto;
+   padding-top: 10px;
+    
 }
+
+
 
 .head .end input:hover{
     background: #104a96;
